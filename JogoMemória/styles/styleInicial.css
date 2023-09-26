@@ -1,0 +1,46 @@
+body {
+    background-color: var(--roxo-fundo);
+}
+
+#telaInicial {
+    color: black;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font: bolder 60px "Pixels";
+}
+
+button {
+    color: whitesmoke;
+    margin-top: 25px;
+    width: 150px;
+    height: 60px;
+    font: bold 16px "Pixels";
+    border: 3px solid whitesmoke;
+    background-color: var(--azul-escuro);
+}
+
+button > a {
+    text-decoration: none;
+    color: whitesmoke;
+    height: 65px;
+}
+
+button:hover {
+    transition: 0.1s;
+    color: black;
+    background-color: var(--azul-claro);
+    border-color: black;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+    }
+}

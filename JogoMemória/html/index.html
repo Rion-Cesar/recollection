@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIADO POR MINDMATCH</title>
+    <link rel="stylesheet" href="../styles/padrão.css">
+    <link rel="stylesheet" href="../styles/cores.css">
+    <style>
+        body {
+            color: black;
+            background-color: var(--roxo-fundo);
+            font: bold 48px "Pixels";
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p {
+            margin: 20px;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.750), rgba(255, 166, 0, 0.750), rgba(255, 255, 0, 0.750), rgba(0, 128, 0, 0.750), rgba(0, 0, 255, 0.750), rgba(76, 0, 130, 0.750), rgba(238, 130, 238, 0.750));
+        }
+
+        img {
+            animation: gira 2s linear infinite;
+        }
+
+        @keyframes gira {
+            0% {
+                transform: rotateY(0deg);
+            }
+
+            50% {
+                transform: rotateY(180deg);
+            }
+
+            100% {
+                transform: rotateY(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>JOGO CRIADO POR</p>
+    <img src="../assets/img/logo.jpg">
+
+    <script>
+        setTimeout(() => {
+            window.location.assign("telaInicial.html");
+        }, 6660);
+    </script>
+</body>
+</html>

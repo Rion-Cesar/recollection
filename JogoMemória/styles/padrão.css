@@ -1,0 +1,17 @@
+* {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
+
+@font-face {
+    font-family: "Pixels";
+    src: url("../assets/fonts/LLPIXEL3.ttf");
+}
