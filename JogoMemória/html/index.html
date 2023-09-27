@@ -40,6 +40,24 @@
                 transform: rotateY(0deg);
             }
         }
+        @media screen and (max-width: 750px){
+            p {
+                font-size: 40px;
+            }
+            img {
+                width: 350px;  
+            }  
+        }
+        @media screen and (max-width: 450px) {
+            p{
+                font-size: 35px;
+            }
+        }
+        @media screen and (max-width: 395px) {
+            p{
+                font-size: 30px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -47,7 +65,7 @@
     <img src="../assets/img/logo.jpg">
 
     <script>
-        setTimeout(() => {
+       setTimeout(() => {
             window.location.assign("telaInicial.html");
         }, 6660);
     </script>

@@ -64,3 +64,15 @@ body {
     border: 2px solid black;
     transition: 0.1s;
 }
+
+@media screen and (max-width: 395px){
+    #nome-header img{
+        width: 135px;
+    }
+    #nome-header h1{
+        font-size: 28px;
+    }
+    #nome-input, .nome-button {
+        width: 75%;
+    }
+}
