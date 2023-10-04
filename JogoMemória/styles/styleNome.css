@@ -51,6 +51,17 @@ body {
     border: 2px solid currentColor;
 }
 
+a > button {
+    background-color: var(--azul-escuro);
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid currentColor;
+}
+
 #nome-button-con:disabled {
     background-color: whitesmoke;
     color: #333;

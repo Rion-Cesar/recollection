@@ -1,0 +1,48 @@
+body {
+    background-color: var(--roxo-fundo);
+    font-family: "Pixels";
+}
+
+#voltar-botão {
+    font-family: "Pixels";
+    background-color: var(--azul-escuro);
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid currentColor;
+    margin: 20px;
+}
+
+#voltar-botão:hover {
+    color: black;
+    background-color: var(--azul-claro);
+    border: 2px solid black;
+    transition: 0.1s;
+}
+
+table, th, td {
+    background-color: var(--azul-escuro);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 5vh auto;
+    padding: 12px;
+    border: 2px solid var(--azul-claro);
+}
+
+.td1 {
+    background-color: rgb(195, 166, 2);
+}
+
+.td2 {
+    background-color: rgb(146, 146, 146);
+}
+
+.td3 {
+    background-color: rgb(174, 108, 42);
+}
+
+

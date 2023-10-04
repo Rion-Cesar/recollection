@@ -1,8 +1,9 @@
-var input = document.querySelector('#nome-input')
-var button = document.querySelector('#nome-button-con')
+const input = document.querySelector('#nome-input')
+const button = document.querySelector('#nome-button-con')
+const form = document.querySelector('#nome-form')
 
-function validarInput() {
-    if (input.value.length > 0) {
+const validarInput = ({ target }) => {
+    if (target.value.length > 0) {
         button.removeAttribute('disabled');
         return
     }
@@ -10,8 +11,11 @@ function validarInput() {
     button.setAttribute('disabled', '')
 }
 
-function confirmarNome() {
-    button.innerHTML = "CONFIRMADO"
+function iniciarJogo(event) {
+    event.preventDefault();
+
+    window.location('telaJogo.html')
 }
 
 input.addEventListener('input', validarInput);
+input.addEventListener('submit', iniciarJogo);
